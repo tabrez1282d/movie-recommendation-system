@@ -11,3 +11,6 @@ Combines two techniques:
 ## 📦 Dataset
 - [MovieLens ml-25m](https://grouplens.org/datasets/movielens/25m/)
 - 62,423 movies and 25 million ratings
+3. Download model.pkl from Google Drive:
+   [Download model.pkl](https://drive.google.com/file/d/13mJrKff3QAEbpkZSVlHcL9Kj5bMY0RVz/view?usp=drive_link)
+   Place it in the root folder.
