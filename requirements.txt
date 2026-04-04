@@ -5,3 +5,6 @@ pandas
 numpy
 requests
 pickle5
+thefuzz
+python-Levenshtein
+python-dotenv
