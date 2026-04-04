@@ -1,5 +1,8 @@
 # 🎬 Movie Recommendation System
 
+## 🚀 Live Demo
+👉 [Click here to try the app](https://movie-recommendation-tabrez.streamlit.app/)
+
 It is a hybrid movie recommendation system built using the MovieLens ml-25m dataset.
 
 ## 🔍 How It Works
