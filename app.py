@@ -17,6 +17,17 @@ TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 # Load model
 @st.cache_resource
 def load_model():
+    import gdown
+    import os
+    
+    if not os.path.exists('model.pkl'):
+        with st.spinner('Downloading model... please wait'):
+            gdown.download(
+                id='13mJrKff3QAEbpkZSVlHcL9Kj5bMY0RVz',
+                output='model.pkl',
+                quiet=False
+            )
+    
     with open('model.pkl', 'rb') as f:
         data = pickle.load(f)
     return data
